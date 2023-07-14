@@ -1,0 +1,109 @@
+H1{
+    color: Red;
+    text-align: center;
+    /* margin-top: px; */
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    /* background-color: red; */
+     /* Adjust the height as needed */
+  }
+.first>img{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+   align-items: center;
+    object-fit: cover;
+    margin-top: 150px;
+    margin-bottom:150px;
+
+}
+.button{
+    /* align-items: center; */
+    color: black;
+    display: block;
+    margin:  auto;
+    /* padding: 4px 4px; */
+    
+    
+     
+}
+.shayari{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+   margin-bottom: 15px;
+
+
+}
+.shbox{
+    border: 1px solid orange;
+    border-radius: 10px;
+    /* margin: 20px;
+     */
+     padding: 10px;
+    
+}
+@media (max-width: 767px)
+{
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        height: 70vh;
+        flex :1;
+        /* background-color: red; */
+         /* Adjust the height as needed */
+      }
+      .first>img{
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 300px;
+        height: 450px;
+       align-items: center;
+        object-fit: cover;
+        margin-top: 100px;
+        margin-bottom:100px;
+    
+    }
+    .shayari{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+       margin-bottom: 10px;
+       /* background-color: blue; */
+    
+    
+    }
+    .shbox{
+        border: 1px solid orange;
+        border-radius: 10px;
+        /* margin: 20px;
+         */
+         padding: 5px;
+         margin-top: -20px;
+        
+    }
+    .button{
+        /* align-items: center; */
+        color: black;
+        display: block;
+        margin:  auto;
+        /* padding: 4px 4px; */
+        margin-top: -10px;
+        
+        
+         
+    }
+}
